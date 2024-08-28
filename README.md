@@ -1,0 +1,12 @@
+# Running the example
+- Go into frontend dir `cd frontend`
+- Install node depencencies `npm i`
+- Build and bundle typscript, also copies to wwwroot dir in backend `npm run build`
+- Go into backend `cd ../backend`
+- In root folder of project run `dotnet restore`
+- In root folder of project run `dotnet run`
+- Check console on which port the project starts locally
+- Navigate to the port using a browser
+- Open up an additional tab and navigate to the same page
+- Send a message in tab1
+- See it automatically show up in tab2 without refreshing🎉
